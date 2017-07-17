@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.thethinktankmit.aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="80dp">
+
+        <!--About-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:id="@+id/info">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:src="@drawable/logob" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="#737373" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/tttdes"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <!--Sahni-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/sahni">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/bt"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Abhay Sahni"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#000"
+                    android:padding="2dp"
+                    android:text="PRESIDENT"
+                    android:textColor="#fff"
+                    android:textSize="9dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:text="An extremely eccentric, loving personality; he takes passion and hardwork to another realm altogether. His jokes are terrible, but we're guessing his thirst to excel and accomplish whatever's thrown at him makes him the right person for any job. Tell him to wrestle against John Cena, and he'll be sure to put up a fight."
+                    android:textColor="#3b3b3b"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Verma-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/verma">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/verma"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Dhruv Verma"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#7a7a7a"
+                    android:padding="2dp"
+                    android:text="GENERAL SECRETARY"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:text="An overly eccentric, hardworking person; he’s an amalgamation of happiness and energy in one being. His body hair may sometimes be off-putting, but get him to start talking about anything from science fiction to photography, and you’ll be delighted."
+                    android:textColor="#3b3b3b"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Suri-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/suri">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/suri"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Dhruv Suri"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#c30303"
+                    android:padding="2dp"
+                    android:text="PUBLIC RELATIONS &amp; CONTENT"
+                    android:textColor="#fff"
+                    android:textSize="7.5dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:text="An enthusiastic and kind person to be with, he will push you to your best. His so-called-jokes are extremely disgusting and you would want to punch him in the face, but his ability to relate to anyone so quickly is what makes him a fun person to be with."
+                    android:textColor="#3b3b3b"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Fotu-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/fotu">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/fotu"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Rohan Agarwal"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#035ac6"
+                    android:padding="2dp"
+                    android:text="DIGITAL MEDIA"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:text="A positive minded, energetic and introverted person. His sheer exuberance will set on to entice everyone’s nerves. Judging by his appearance, you would think he has a thing for goats; but that turned out to be a horrible assumption with a bad ending for most of us."
+                    android:textColor="#3b3b3b"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Rwik-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/rwik">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/rwik"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Rwik Kamilya"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#f18b00"
+                    android:padding="2dp"
+                    android:text="MARKETING &amp; PUBLICITY"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:text="His ideas and actions radiate sheer vociferousness and experience. Although he thinks he’s extremely smooth with everything and everyone around him, his current relationship status speaks otherwise. A ball of passion, he’s like a conduit to growth."
+                    android:textColor="#3b3b3b"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Shreya-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/shreya">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/shreya"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Shreya Choudhury"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#98cc00"
+                    android:padding="2dp"
+                    android:text="HOSPITALITY"
+                    android:textColor="#fff"
+                    android:textSize="9dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="Extremely caring and fun loving, if she were to be a Pokémon, we’re sure she’d be able to beat Pikachu by flaunting her horrible jokes. An awesome person to work with, she’s a bit too smart for everyone walking on planet earth."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Arnav-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/arnav">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/arnav"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Arnav Vashisth"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#D0B910"
+                    android:padding="2dp"
+                    android:text="HUMAN RESOURCES"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="Experience and mitigation are two things this queer homo sapien values the most. A very humble, fun and super interesting person to be around; Arnav packs a punch with his horrible jokes and out of the world innuendos (he would say something weird for this description as well)."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--sHERYL-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/sheryl">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/sheryl"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Sheryl Aggarwal"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#006C03"
+                    android:padding="2dp"
+                    android:text="FINANCE &amp; SPONSORSHIP"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="If you were to see his horrible mushroom-cut hair, you would run away instantly; but you would miss out on meeting one of the most relaxed, carefree (in a super awesome way) and calm individuals, who are way too awesome to talk to. Meet him, and you’ll feel super attached to him within ten minutes of talking to him."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Iyer-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/iyer">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/iyer"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Abhay Iyer"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#604005"
+                    android:padding="2dp"
+                    android:text="LOGISTICS"
+                    android:textColor="#fff"
+                    android:textSize="9dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="Dedicated, passionate, hardworking are mere substitutes to words that would describe his work. He’s like a computer executing commands in loop and a super awesome person to be around too. He’ll laugh at everyone’s jokes, no matter how bad they are; so basically, he makes everyone end up feeling good about themselves."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Nayak-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/nayak">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/nayak"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Ganesh Nayak"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#5800AA"
+                    android:padding="2dp"
+                    android:text="FACULTY ADVISOR"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="Hip, hop and everything in between, he’s like an Indian version of Snoop Dawg (Intentional wordplay with the ‘w’). A professor by day, and a cyclist whenever he’s not teaching in a classroom, he’s an amalgamation of passion, dedication and humor."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Nayak-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:id="@+id/raghu">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/rag"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Raghu Radhakrishnan"
+                    android:textColor="#000"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#d5006b"
+                    android:padding="2dp"
+                    android:text="FACULTY ADVISOR"
+                    android:textColor="#fff"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#737373" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="#3b3b3b"
+                    android:text="The savior to all needs of The Think Tank, he loves to have a proper discussion of things and implement them in the best manner possible. The energy with which he likes to work on things is just inspiring and that is what makes us look up to him."
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--Social-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <!--FB-->
+            <LinearLayout
+                android:id="@+id/fbclk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fb1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Facebook"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--IG-->
+            <LinearLayout
+                android:id="@+id/igclk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Instagram"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--TW-->
+            <LinearLayout
+                android:id="@+id/twclk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/tw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Twitter"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--YT-->
+            <LinearLayout
+                android:id="@+id/ytclk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="YouTube"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

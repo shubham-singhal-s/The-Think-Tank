@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:paddingBottom="60dp"
+
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3a3a3a"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="21dp"
+            android:text="Frequently Asked Questions"
+            android:paddingTop="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="What does The Think Tank aim to achieve?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Think Tank’s goal is to propel people to think outside the box.\nWe aim to Motivate. Innovate. Create. "
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="What are events organized by The Think Tank?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are three events held throughout the year: Manipal-O-Pedia, A Fireside Chat and TEDxManipalUniversity. We will soon be conducting workshops."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="What is the procedure to conduct a workshop via The Think Tank?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop us a mail at main@thethinktankmit.com or message us on our Facebook page https://www.facebook.com/TheThinkTankMIT/. One of our team members will get back to you at the earliest."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="How does one become a speaker at an event by The Think Tank?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop us a mail at main@thethinktankmit.com or message us on our Facebook page https://www.facebook.com/TheThinkTankMIT/. One of our team members will get back to you at the earliest."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="How to collaborate with The Think Tank?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you are interested in collaborating with The Think Tank, drop us a mail at publicrelations@thethinktankmit.com or message us on our Facebook page https://www.facebook.com/TheThinkTankMIT/ . One of our team members will get back to you at the earliest."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="How can one sponsor any of The Think Tank’s events?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you are interested in sponsoring our event or are interested in marketing your product/service to the crow in Manipal, Udupi and Mangalore, drop us a mail at finance@thethinktankmit.com or message us on our Facebook page https://www.facebook.com/TheThinkTankMIT/ . One of our team members will get back to you at the earliest."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="How can you join the team?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We have yearly recruitments at MIT. But if you think you have a skill set which could help us, send your portfolios to main@thethinktankmit.com or drop us a message on our Facebook page: https://www.facebook.com/TheThinkTankMIT/. "
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="What is TED?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TED is a nonprofit devoted to spreading ideas, usually in the form of short, powerful talks (18 minutes or less). TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics — from science to business to global issues — in more than 100 languages."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="What is TEDx?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEDx is an international community that organizes TED-style events anywhere and everywhere -- celebrating locally-driven ideas and elevating them to a global stage. TEDx events are produced independently of TED conferences, each event curates speakers on their own, but based on TED's format and rules."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Q1-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: "
+                android:textSize="35dp"
+                android:padding="18dp"
+                android:textColor="#8f8f8f"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Who can attend TEDxManipalUniversity?"
+                android:padding="10dp"
+                android:textColor="#363636"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An application will be released. Attendees will be selected from the applications on the basis of their answers and willingness to attend TEDxManipalUniversity."
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:background="@drawable/ansbg"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <!--Extra-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:layout_margin="5dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="6dp"
+            android:text="Still got a question?"
+            android:textSize="21dp"
+            android:textColor="#2b2c2d"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Message Us on Facebook:"
+            android:textSize="12dp"
+            android:textColor="#565252"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/fbttt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="141.33dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/fb"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

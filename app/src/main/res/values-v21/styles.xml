@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+    <style name="UserTheme.NoActionBar" parent="AppTheme.NoActionBar">
+        <item name="colorPrimaryDark">#000</item>
+        //red is the color of the pressed state and activated state
+        <item name="colorControlActivated">#ffffffff</item>
+        //black is the color of the normal state
+        <item name="colorControlNormal">#00000000</item>
+    </style>
+</resources>

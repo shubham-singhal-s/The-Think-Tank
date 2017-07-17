@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#272727</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#fbc72a</color>
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="basic">#efbe13</color>
+    <color name="primary_text_material_dark">#ffea00</color>
+</resources>

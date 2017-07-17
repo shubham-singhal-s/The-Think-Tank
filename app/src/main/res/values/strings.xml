@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">The Think Tank</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tttdes">The Think Tank is a club which aspires to inspire. A forum which will urge you to explore yourself and the world around you. A stepping stone, a bridge to the plethora of opportunities. It is set to motivate you to your truest incentives, harbor your passion and outdo ideological differences.</string>
+
+    //Facebook
+    <string name="appid">1723394821321490</string>
+    <string name="userId">445391855664379</string>
+    <string name="accessToken">EAACEdEose0cBAJc4ZAJ2kQin72MJ5QufKtVTbFQqMTNhn6YOhnKOMPM1ZCRxSFpsZAjNrK9L4UmZACFgOg1Pj0Jt4zyr3B4z5ATpZCSpoUwuMTiQpi8RHQEZAbYdi4ic9VyWRZB9ZC3V0eS5MjuOcgyx7VGZBeoXsV9y9zJc5tT71jN7tKg9fhawo9O1zC7fduaQZD</string>
+
+
+    //Youtube
+    <string name="utube_apiU_key">AIzaSyBc9XkwkFYexjheOUit9KRcWvyZOuQuGLE</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
