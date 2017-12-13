@@ -108,7 +108,7 @@ public class SnapOn extends AppCompatActivity {
 
 //        boolean ch = true;
 
-        bm2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.ted2);
+        bm2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.tran);
 
 
         buckysImageView = (ImageView) findViewById(R.id.buckysImageView);
@@ -182,6 +182,7 @@ public class SnapOn extends AppCompatActivity {
 
             case R.id.r4: bm2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.ted5); break;
             case R.id.r5: bm2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.ted6); break;
+            case R.id.r6: bm2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.tran); break;
 
         }
     }

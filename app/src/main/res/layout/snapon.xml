@@ -101,6 +101,22 @@
             android:paddingTop="5dp">
 
             <RadioButton
+                android:id="@+id/r6"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/fil6"
+                android:button="@null"
+                android:checked="true"/>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#aeaeae" />
+
+            <RadioButton
                 android:id="@+id/r5"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
